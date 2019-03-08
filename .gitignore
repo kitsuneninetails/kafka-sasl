@@ -23,8 +23,8 @@ java/.settings/
 .vscode/*
 
 ### SSL files ##
-*.crt
-*.jks
-*creds
-*.key
-*.pem
+#*.crt
+#*.jks
+#*creds
+#*.key
+#*.pem
