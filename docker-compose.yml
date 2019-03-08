@@ -71,6 +71,10 @@ services:
     volumes:
       - ./secrets/kafka:/etc/kafka/secrets
       - ./secrets/conf:/etc/kafka/conf
+    deploy:
+      resources:
+        reservations:
+          memory: 1500M
 
   schema-registry:
     image: confluentinc/cp-schema-registry:5.1.0
